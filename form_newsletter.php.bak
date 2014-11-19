@@ -1,0 +1,61 @@
+<?php
+session_start();
+
+/*
+$url_return = "http://localhost/repositorio-wp-goldeneye/";
+$local = "192.168.1.88";
+$user = "root";
+$banco = "goldeneye_wp";
+$senha = "";
+
+
+$url_return = "http://cappen.com/criacao/goldeneye2012/";
+$local = "localhost";
+$user = "cappen_goldeneye";
+$banco = "cappen_goldeneye_wp";
+$senha = "p1ntp01";
+*/
+
+$url_return = "http://www.goldeneye.com/beta/";
+$local = "localhost";
+$user = "goldeneye2012";
+$banco = "10012_goldeneye2012";
+$senha = "js72gps";
+
+$conn = mysql_connect($local, $user, $senha) or die (mysql_error());
+mysql_select_db($banco,$conn) or die (mysql_error($conn));
+
+
+$sql = " 
+INSERT INTO `ge_newsletter` (
+	`id` ,
+	`date` ,
+	`email`
+)
+VALUES (
+	NULL , 
+	CURRENT_TIMESTAMP ,  
+	'".$_POST['email']."'
+);	
+";
+
+$resultado = mysql_query($sql);
+
+if(mysql_errno() == "")
+{	
+	 $_SESSION['newsletter'] = 1;
+}
+else
+{
+	if(mysql_errno() == 1062){
+		
+		$_SESSION['newsletter'] = 1062;
+
+	}
+	else{
+		$_SESSION['newsletter'] = 0;
+		$_SESSION['error'] = mysql_errno();
+	}
+}
+
+header('location:'. $url_return);
