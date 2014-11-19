@@ -39,4 +39,9 @@ $homepost_lastposts = get_posts( $homepost_args );
 	
 	<?php endforeach; ?>
 	
+	<div class="flexslider">
+		<div class="instagirl"></div>
+		<ul class="rslides"></ul>
+	</div>
+	
 </div>

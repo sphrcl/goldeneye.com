@@ -26,6 +26,7 @@
   <!-- CSS -->
   <link rel="stylesheet" href="<?php echo get_stylesheet_uri() ?>">
   <link rel="stylesheet" href="<?php echo get_bloginfo("stylesheet_directory") ?>/css/jquery.jscrollpane.css">
+  <link rel="stylesheet" href="<?php echo get_bloginfo("stylesheet_directory") ?>/css/responsiveslides.css">
   <link rel="stylesheet" href="<?php echo get_bloginfo("stylesheet_directory") ?>/font/stylesheet.css">
   <!-- end CSS-->
 

@@ -1,0 +1,84 @@
+/*! http://responsiveslides.com v1.54 by @viljamis */
+
+.rslides {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.rslides li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.rslides img {
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+}
+
+/* CUSTOM */
+
+.flexslider {
+	border-top: 1px dashed #bfbfbf;
+	padding-top: 15px;
+	margin-right: 12px;
+}
+
+.instagirl {
+	background: url(../images/ge-insta.png) no-repeat scroll 0 0 transparent;
+	height: 76px;
+	margin-bottom: -9px;
+}
+
+#main .flexslider li {
+	background: none repeat scroll 0 0 transparent;
+	padding: 0;
+}
+
+.flexslider img {
+	float: left;
+	margin-right: 2%;
+	max-width: 100%;
+	width: 31.33%;
+}
+
+.centered-btns_tabs {
+	text-align: center;
+}
+
+#main .centered-btns_tabs li {
+	display: inline;
+	float: none;
+	margin-right: 5px;
+}
+
+.centered-btns_tabs a {
+	background: none repeat scroll 0 0 #ADD1E4;
+	border-radius: 15px;
+	box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.3) inset;
+	display: inline-block;
+	height: 9px;
+	overflow: hidden;
+	text-indent: -9999px;
+	width: 9px;
+}
+
+.centered-btns_here a {
+	background: none repeat scroll 0 0 #2E85B0;
+}

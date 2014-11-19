@@ -64,7 +64,9 @@
   <script defer src="<? echo get_bloginfo("stylesheet_directory") ?>/js/jquery.clearinput.js"></script>
   <script defer src="<? echo get_bloginfo("stylesheet_directory") ?>/js/jquery.carrossel.js"></script>
   <script defer src="<? echo get_bloginfo("stylesheet_directory") ?>/js/jquery.scrollTo-1.4.2-min.js"></script>
+  <script type="text/javascript" src="<? echo get_bloginfo("stylesheet_directory") ?>/js/responsiveslides.min.js"></script>
   <script defer src="<? echo get_bloginfo("stylesheet_directory") ?>/js/script.js"></script>
+  <script type="text/javascript" src="<? echo get_bloginfo("stylesheet_directory") ?>/js/script1.js"></script>
   
   <!-- end scripts-->
   
