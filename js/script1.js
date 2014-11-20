@@ -4,9 +4,9 @@
 	//---------------------------------------------------------------------------//
 
 	$(document).ready(function() {
-	var accesstoken = "5532366.250c9fc.bf77480e62f64606a28f227c29d860af",
+	var accesstoken = "691270583.f1e587f.57a7442855894df0bb437cc3a43205e1",
 		userid = 691270583,
-		count = 12,
+		count = 21,
 		url = "https://api.instagram.com/v1/users/" + userid + "/media/recent/?access_token=" + accesstoken + "&count=" + count + "";
 		
 		$.ajax({
