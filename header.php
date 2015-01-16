@@ -97,7 +97,9 @@
 		<span class="tree"></span>
 		
 		<div class="reserv">
-			<a href="https://gc.synxis.com/rez.aspx?Hotel=19292&Chain=7576" target="_blank">Reservations »</a>
+			<!-- <a href="https://gc.synxis.com/rez.aspx?Hotel=19292&Chain=7576" target="_blank">Reservations »</a> -->
+			<a href="https://www.goldeneye.com/booking/">Reservations »</a>
+
 			<div class="fones">
 				<!--span class="nOne">1-800-OUTPOST</span> 
 				<span>GoldenEye<br/> 876-6229-007</span-->
