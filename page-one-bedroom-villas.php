@@ -38,7 +38,8 @@ $attachs = getAttachments($id);
 							</div>
 						<div class="columnTwo">
 							<div class="reserv">
-								<a target="_blank" href="https://gc.synxis.com/rez.aspx?Hotel=19292&Chain=7576"  class="btGreen">Reservations »</a>
+								<!-- <a target="_blank" href="https://gc.synxis.com/rez.aspx?Hotel=19292&Chain=7576"  class="btGreen">Reservations »</a> -->
+								<a href="https://www.goldeneye.com/booking/"  class="btGreen">Reservations »</a>
 								<p>1-800-OUTPOST</p>
 							</div>
 						</div>		
