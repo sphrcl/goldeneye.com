@@ -36,7 +36,7 @@ $attachs = getAttachments($id);
 				<h4><? echo $metas['subtitle'] ?></h4> 
 				<p>We would like to advise you that our reservation software is currently being upgraded to ensure enhanced service in the future.
  
-				During this upgrading procedure our online booking engine will not be available from this evening January 15, 2015  until Tuesday, January 20, 2015 and therefore we will not be accepting any online reservations.
+				During this upgrading procedure our online booking engine will not be available from this evening January 15, 2015  until Wednesday, January 21st, 2015 and therefore we will not be accepting any online reservations.
 				 
 				In the  interim please call us directly at 1-800-OUTPOST or 1876-622-9009 or email us at <a href="mailto:reservations@islandoutpost.com">reservations@islandoutpost.com</a> for immediate assistance.
 				 
