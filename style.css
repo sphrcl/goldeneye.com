@@ -656,3 +656,21 @@ font-size: 12px;
 text-align:justify;
 text-justify:inter-word;
 }
+
+
+
+/* CUSTOM */
+
+aside img {
+	float: none;
+}
+
+.stamp {
+	margin-bottom: 30px;
+}
+
+
+ul.fifth {
+position: relative;
+left: 30px;
+}
