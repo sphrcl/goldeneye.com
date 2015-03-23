@@ -332,6 +332,67 @@ aside .tatler .texts date {color: #e8519d; margin-top: -10px; display: block;  }
 .own #carrosselOwn {width: 862px; height:385px; display: block; padding: 0 0 20px 0; border-bottom: 1px dotted #b3b3b3; margin: 0 0 20px}
 .own #carrosselOwn .item{width: 862px; height:358px; margin: 0}
 
+/* Offers */
+
+.offer {
+  clear: both;
+}
+
+.own.offers #carrosselOwn {
+  border-bottom: none;
+  margin: 0;
+  padding: 0;
+}
+
+.own.offers .info {
+  width: 520px;
+}
+
+.offerimg {
+  width: 330px;
+  float: left;
+}
+
+.own.offers .offerimg img {
+  float: none;
+  text-align: center;
+  max-width: 330px;
+  height: auto;
+}
+
+.own.offers .left {
+  border-bottom: 1px solid #b3b3b3;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-right: 0;
+  margin-left: 20px;
+}
+
+.columns.offers a {
+  text-decoration: none;
+}
+
+.columns h3.offertitle {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.columns.offers p a {
+  text-decoration: underline;
+}
+
+.columns.clearfix.own.offers.singleoffer {
+  padding-top: 60px;
+}
+
+h1.offertitle {
+  color: #e8519d;
+  font-family: 'Conv_SCHLBKI';
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
 /* contact*/
 .contact .columns {background: url(images/tree-contact.png) no-repeat 517px -185px!important; }
 .contact form input[type=text] {width: 420px;}
