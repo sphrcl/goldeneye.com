@@ -82,7 +82,7 @@ $_page = get_page(get_page_id()); ?>
 					</div>
 				</div>
 				<div class="btsOwn">
-					<a href="<? echo get_bloginfo("stylesheet_directory") ?>/downloads/ls-fplan-facts.pdf" target="_blank" class="btGreen">Floor Plan + Facts »</a>
+					<a href="http://www.goldeneye.com/wp-content/uploads/sites/15/2015/03/GE-Coldwell-Sales-Sheets-Lagoon-Lot.pdf" target="_blank" class="btGreen">Floor Plan + Facts »</a>
 				</div>
 
 				<hr/>
