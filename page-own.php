@@ -78,7 +78,7 @@ $_page = get_page(get_page_id()); ?>
 					<div class="info">
 						<h3>Lagoon Lots</h3>
 						<p>Dotted along the emerald lagoon, these large lots each come with a unique 750 sq ft Lagoon Suite that can be expanded to a 3 or 4 bedroom villa-type accommodation.</p>
-						<p>Prices Ranging from: US$ 1,100,000 - $1,250,000</p>
+						<p>Prices Ranging from: US$ 1,200,000 - $1,500,000</p>
 					</div>
 				</div>
 				<div class="btsOwn">
