@@ -63,7 +63,7 @@ $subpaginas = get_pages( $args );
 			
 			<br/>
 			
-			<a href="<? echo get_bloginfo("stylesheet_directory") ?>/downloads/SpaMenu.pdf" target="_blank" class="btOrange" title="Spa Menu">Spa Menu »</a>
+			<a href="<?php echo get_post_meta($post->ID, 'io_spamenu', true); ?>" target="_blank" class="btOrange" title="Spa Menu">Spa Menu »</a>
 			
 			<hr/>
 			
@@ -81,6 +81,7 @@ $subpaginas = get_pages( $args );
 				<a href="<?php echo $page->post_name; ?>" class="more-link">Read More →</a>
 			</article>
 			
+
 			
 			<?php }; ?>
 			
