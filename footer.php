@@ -50,9 +50,10 @@
     
   </div> <!--! end of #container -->
 
-
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
   <script>window.jQuery || document.write('<script src="js/libs/jquery-1.6.2.min.js"><\/script>')</script>
+  
 
   <!-- scripts -->
   <script defer src="<? echo get_bloginfo("stylesheet_directory") ?>/js/libs/jquery-ui-1.8.12.custom.min.js"></script>
@@ -64,6 +65,7 @@
   <script defer src="<? echo get_bloginfo("stylesheet_directory") ?>/js/jquery.clearinput.js"></script>
   <script defer src="<? echo get_bloginfo("stylesheet_directory") ?>/js/jquery.carrossel.js"></script>
   <script defer src="<? echo get_bloginfo("stylesheet_directory") ?>/js/jquery.scrollTo-1.4.2-min.js"></script>
+  <script defer src="<? echo get_bloginfo("stylesheet_directory") ?>/js/jquery.colorbox-min.js"></script>
   <script type="text/javascript" src="<? echo get_bloginfo("stylesheet_directory") ?>/js/responsiveslides.min.js"></script>
   <script defer src="<? echo get_bloginfo("stylesheet_directory") ?>/js/script.js"></script>
   <script type="text/javascript" src="<? echo get_bloginfo("stylesheet_directory") ?>/js/script1.js"></script>

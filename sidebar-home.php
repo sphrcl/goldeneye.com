@@ -1,5 +1,23 @@
 <aside>
 	
+	<?php query_posts('post_type=popup');
+			if(have_posts()) : while(have_posts()) : the_post(); 
+			$imgsrc = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), "Full");
+	?>
+	
+	<div class="stamp">
+		<a class="inline" href="#inline_<?php echo $post->ID ?>"><img src="<?php echo $imgsrc[0]; ?>" alt="<?php the_title(); ?>"/></a>
+		
+		<div style='display:none'>
+			<div id="inline_<?php echo $post->ID ?>" class="inlinecontent">
+				<?php the_content(); ?>
+			</div>
+		</div>
+
+	</div>
+	
+	<?php endwhile; endif; wp_reset_query(); ?>
+	
 	<div class="stamp">
 		<a href="http://islandoutpost.eweddingcalendar.com/Wedding-Calendar-Home" title="Weddings at GoldenEye"><img src="https://www.goldeneye.com/wp-content/uploads/sites/15/2014/10/GE_weddingbutton_alt.jpg" alt="Weddings at GoldenEye"/></a>
 		

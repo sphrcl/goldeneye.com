@@ -39,6 +39,9 @@ $(document).ready(function(){
 		if(!$(this).hasClass('active')){
 		  $(this).stop().animate({'backgroundColor':'#caeeff' , 'color':'#000'});}
 	});
+	
+	
+	$(".inline").colorbox({inline:true, width:"50%"});
 
 	//---------------------------------------------------------------------------//
 	//FAQ - esconde todo o conteudo da dd

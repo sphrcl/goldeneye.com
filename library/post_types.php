@@ -69,5 +69,21 @@ function create_offertype_taxonomies()
 }
 */
 
+add_action( 'init', 'popup_post_type' );
+function popup_post_type() {
+  register_post_type( 'popup',
+    array(
+      'labels' => array(
+        'name' => __( 'Popup' ),
+        'singular_name' => __( 'Popup' )
+      ),
+      'public' => true,
+      'rewrite' => array('slug' => 'popup'),
+      'menu_icon' => 'dashicons-megaphone',
+      'supports' => array('title','author','custom-fields', 'author', 'editor','thumbnail')
+    )
+  );
+}
+
 
 ?>
