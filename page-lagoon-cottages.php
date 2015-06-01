@@ -39,8 +39,8 @@ $attachs = getAttachments($id);
 	
 						<div class="columnTwo">
 							<div class="reserv">
-								<!-- <a target="_blank" href="https://gc.synxis.com/rez.aspx?Hotel=19292&Chain=7576"  class="btGreen">Reservations »</a> -->
-								<a href="https://www.goldeneye.com/booking/"  class="btGreen">Reservations »</a>
+								<a target="_blank" href="https://gc.synxis.com/rez.aspx?Hotel=19292&Chain=7576"  class="btGreen">Reservations »</a> 
+								<!-- <a href="https://www.goldeneye.com/booking/"  class="btGreen">Reservations »</a> -->
 								<p>1-800-OUTPOST</p>
 							</div>
 						</div>		
@@ -50,7 +50,7 @@ $attachs = getAttachments($id);
 
 					<div class="columnFive">
 
-						<div class="floorPlan"><a href="<? echo get_bloginfo("stylesheet_directory") ?>/downloads/ls-floor-plans.pdf" target="_blank"></a></div>
+						<div class="floorPlan"><a href="http://www.goldeneye.com/wp-content/uploads/sites/15/2015/03/GE-Coldwell-Sales-Sheets-Lagoon-Lot-032415.pdf" target="_blank"></a></div>
 
 
 						<h5>Features:</h5>
