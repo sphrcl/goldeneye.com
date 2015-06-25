@@ -28,10 +28,24 @@
   <link rel="stylesheet" href="<?php echo get_bloginfo("stylesheet_directory") ?>/css/jquery.jscrollpane.css">
   <link rel="stylesheet" href="<?php echo get_bloginfo("stylesheet_directory") ?>/css/colorbox.css">
   <link rel="stylesheet" href="<?php echo get_bloginfo("stylesheet_directory") ?>/css/responsiveslides.css">
-  <!--<link rel="stylesheet" href="<?php echo get_bloginfo("stylesheet_directory") ?>/font/stylesheet.css">-->
+  <link rel="stylesheet" href="<?php echo get_bloginfo("stylesheet_directory") ?>/font/stylesheet.css">
   <!-- end CSS-->
 
- 
+ <!-- style -->
+ <style>
+
+	/* sprite */
+	header h1, #topo span.bt a, footer .siteMap ul span {
+		background: url(http://www.goldeneye.com/wp-content/uploads/sites/15/2015/06/sprite_new_new1.png) no-repeat;
+	}
+
+	footer .siteMap ul.fifth span {
+	  width: 110px;
+	  height: 55px;
+	  background-position: -480px -25px;
+	}
+
+ </style>
   
   <script type="text/javascript">
     (function() {
