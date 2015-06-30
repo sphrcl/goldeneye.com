@@ -68,7 +68,7 @@ $attachs = getAttachments($id);
 					<span class="darkBlue"><strong>Living Room</strong></span>
 					<ul>
 						<li>Sofa with Royal Hut decorative pillows</li>
-						<li>37-inch flat screen television with over 200 international channels</li>
+						<li>37-inch flat screen television with over 200 International channels and Apple TV</li>
 					</ul>
 							
 								
