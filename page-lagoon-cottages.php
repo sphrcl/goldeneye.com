@@ -69,6 +69,7 @@ $attachs = getAttachments($id);
 							<li>Complimentary Wi-Fi (available in all rooms and throughout the property)</li>
 							<li>Panasonic Inverter air conditioning technology (utilizes 40% less energy)</li>
 							<li>Bodum coffee press (with fresh Blue Mountain Jamaican coffee) and kettle with a selection of teas</li>
+							<li>37-inch flat screen television with over 200 International channels and Apple TV</li>
 						</ul>	
 
 						<span class="darkBlue"><strong>Indoor / Outdoor Bathroom & Walk-in Closet Area</strong></span>

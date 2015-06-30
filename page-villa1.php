@@ -62,7 +62,7 @@ $attachs = getAttachments($id);
 						<li>Second bamboo shower/bathroom between lounge and bedroom</li>
 						<li>Private tropical garden patio with amazing sea-view</li>
 						<li>Logitech Squeezebox sound system</li>
-						<li>37-inch flat screen television with over 200 International channels</li>
+						<li>37-inch flat screen television with over 200 International channels and Apple TV</li>
 					</ul>
 					
 					<span class="darkBlue"><strong>Living Room</strong></span>

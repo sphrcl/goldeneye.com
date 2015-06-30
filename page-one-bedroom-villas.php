@@ -59,12 +59,13 @@ $attachs = getAttachments($id);
 							<li>Custom-designed king-size bed outfitted with Royal Hut 400-thread count handmade linens</li>
 							<li>Custom-designed furniture including writing desk</li>
 							<li>Logitech Squeezebox sound system stocked with a catalogue of Island Records music</li>
+							<li>37-inch flat screen television with over 200 International channels and Apple TV</li>
 						</ul>
 
 						<span class="darkBlue"><strong>Living Room</strong></span>
 						<ul>
 							<li>Queen-size daybed and over-sized comfy club chair with Royal Hut decorative pillows</li>
-							<li>37-inch flat screen television with over 200 international channels</li>
+							<li>37-inch flat screen television with over 200 International channels and Apple TV</li>
 						</ul>
 
 

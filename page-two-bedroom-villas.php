@@ -70,7 +70,7 @@ $attachs = getAttachments($id);
 						<span class="darkBlue"><strong>Living Room</strong></span>
 						<ul>
 							<li>Queen-size daybed and oversized comfy club chair with Royal Hut  decorative pillows</li>
-							<li>37-inch flat screen television with over 200 international channels</li>
+							<li>37-inch flat screen television with over 200 International channels and Apple TV</li>
 						</ul>
 
 						<span class="darkBlue"><strong>Bathrooms & Walk-in Closet Area</strong></span>
